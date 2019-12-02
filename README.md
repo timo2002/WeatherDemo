@@ -1,5 +1,5 @@
 # WeatherDemo
-Demo for testing SwiftUI and RxSwift
+Simple demo for testing SwiftUI and RxSwift
 
 This is a simple demo to test SwiftUI basic usage and RxSwift for receiving temperature information from the MetaWeather service.
 
