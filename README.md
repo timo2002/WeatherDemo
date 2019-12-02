@@ -1,7 +1,5 @@
 # WeatherDemo
-Simple demo for testing SwiftUI and RxSwift
-
-This is a simple demo to test SwiftUI basic usage and RxSwift for receiving temperature information from the MetaWeather service.
+Simple demo to test SwiftUI basic usage and RxSwift for receiving temperature information from the MetaWeather service.
 
 The application has a single UI view represented by the ui/WeatherView struct.
 WeatherView initially subribes to RX observable (created in WeatherController) that publishes London's current weather information.
