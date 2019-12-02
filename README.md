@@ -4,11 +4,10 @@ Demo for testing SwiftUI and RxSwift
 This is a simple demo to test SwiftUI basic usage and RxSwift for receiving temperature information from the MetaWeather service.
 
 The application has a single UI view represented by the ui/WeatherView struct.
-WeatherView initially subribes to RX observable (created in WeatherController) that publishes the current weather information of London
-- the JSON weather forecast object is fetched and parsed from the MetaWeather's service.
+WeatherView initially subribes to RX observable (created in WeatherController) that publishes London's current weather information.
+The required JSON weather forecast objects are fetched and parsed from the MetaWeather's service.
 
-When ever WeatherView's button is pressed the existing RX observable is disposed and a new observable is created in order to reset the timer and
-the URL that specifies the source of the weather information (only two URLS - one for London, one for Helsinki).
+When either of WeatherView's buttons are pressed the existing RX observable is disposed and a new observable is created in order to reset the timer and the URL that specifies the source of the weather information (only two URLS - one for London, one for Helsinki).
 
 Classes/Structs explained briefly:
 
